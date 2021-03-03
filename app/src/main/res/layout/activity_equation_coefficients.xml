@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EquationCoefficientsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="60dp"
+        tools:layout_editor_absoluteY="93dp">
+
+        <TextView
+            android:id="@+id/lblCoefficient1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном a:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblCoefficient2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном b:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblCoefficient3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном c:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblCoefficient4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном d:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblCoefficient5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном e:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblCoefficient6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Коэффициент при неизвестном f:" />
+
+        <EditText
+            android:id="@+id/txbCoefficient6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <TextView
+            android:id="@+id/lblFreeCoefficient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Свободный коэффициент:" />
+
+        <EditText
+            android:id="@+id/txbFreeCoefficient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="numberSigned|numberDecimal" />
+
+        <Button
+            android:id="@+id/btnOk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Готово"
+            android:onClick="btnOkClick"/>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
